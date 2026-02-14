@@ -817,9 +817,9 @@ update_script() {
     echo -e "\n${WHITE}Updating... Please wait.${NC}"
 
     # --- Configuration ---
-    REPO_URL="https://raw.githubusercontent.com/leryyvpn/udp-zivpn/main"
+    REPO_URL="https://raw.githubusercontent.com/vpngacor/udp-zivpn/main"
     # Assuming the release version might get updated, but for now, this is the latest known one.
-    RELEASE_URL="https://github.com/leryyvpn/udp-zivpn/releases/download/udp-zivpn_1.4.9"
+    RELEASE_URL="https://github.com/vpngacor/udp-zivpn/releases/download/udp-zivpn_1.4.9"
 
     # --- Detect Architecture ---
     ARCH=$(uname -m)
